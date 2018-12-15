@@ -9,6 +9,11 @@ body {
     overflow: hidden;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .logo {
     width: 50px;
     vertical-align: middle;
@@ -45,4 +50,10 @@ body {
     100% {
         background-position: 100% 50%;
     }
+}
+
+@media only screen and (max-width: 600px) {
+  .animated {
+    font-size: 3rem;
+  }
 }
